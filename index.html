@@ -22,6 +22,7 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-style: oblique;
             font-size: 2.0rem;
+            text-align: center;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -31,10 +32,19 @@
         .no-style {
             font-style: normal;
         }
+
+        p > a{
+            color: blue;
+            transition: 0.25s;
+        }
+
+        p > a:hover {
+            color: tomato;
+        }
     </style>
 </head>
 <body>
-    <p><span class="no-style">⚠️</span>&nbsp;You may now close this window.</p>
+    <p><span class="no-style">⚠️</span>&nbsp;You may now close this window.<br><br>You can also email us at <a href="mailto:helpdesk@meltrotter.org">helpdesk@meltrotter.org</a></p>
     
 </body>
 </html>
